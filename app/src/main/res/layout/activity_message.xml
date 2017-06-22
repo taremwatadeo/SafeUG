@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="27dp"
+    android:paddingRight="27dp">
+    <!--
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/smscontact1"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton1"
+        android:text="add"
+        android:layout_alignTop="@+id/smscontact1"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/smscontact2"
+        android:layout_weight="1"
+        android:layout_below="@+id/smscontact1"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:text="add"
+        android:layout_below="@+id/smscontact1"
+        android:layout_alignParentEnd="true" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/smscontact3"
+        android:layout_weight="1"
+        android:layout_below="@+id/smscontact2"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:text="add"
+        android:layout_below="@+id/smscontact2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help Message"
+        android:id="@+id/smsid"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:layout_below="@+id/smscontact3"
+        android:layout_alignStart="@+id/smscontact3" />
+        -->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="enter sms"
+        android:layout_height="wrap_content"
+        android:id="@+id/smsdetails"
+        android:layout_below="@+id/smsid"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:layout_alignStart="@+id/smsid" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND"
+        android:id="@+id/smsbutton"
+        android:layout_below="@+id/smsdetails"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@+id/smsdetails" />
+
+</RelativeLayout>
